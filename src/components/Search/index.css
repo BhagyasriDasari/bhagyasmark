@@ -1,0 +1,29 @@
+.search {
+  margin: 20px 0;
+}
+
+.search input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.search button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #66afb7;
+  border: none;
+  padding:5px;
+}
+
+.dark-mode .search button {
+  background-color: #220240;
+  color: #ffffff;
+}
+
+.dark-mode .search {
+  background: linear-gradient(135deg, #4b6cb7, #182848);
+  color: #ffffff;
+}
